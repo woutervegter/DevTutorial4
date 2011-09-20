@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+    
+    <RelativeLayout android:id="@+id/relativeLayout1" android:layout_width="fill_parent" android:layout_height="44dip" android:background="@drawable/blue_intense_gradient">
+        <TextView android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ScrollView Demo" android:textSize="16dip" android:layout_centerInParent="true" android:textStyle="bold" android:textColor="#ffffff"></TextView>
+    </RelativeLayout>
+    <ScrollView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_height="fill_parent" android:layout_width="fill_parent" android:background="@drawable/blue_light_gradient">
+    <RelativeLayout android:id="@+id/relativeLayout1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:padding="10dip">
+        <EditText android:layout_toRightOf="@+id/btnCalculate" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="numberDecimal" android:hint="Voer een getal in" android:id="@+id/etxtNumber">
+            <requestFocus></requestFocus>
+        </EditText>
+        <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/btnCalculate" android:text="Bereken!" android:onClick="calculateTables"></Button>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/btnCalculate" android:layout_alignWithParentIfMissing="false" android:id="@+id/txtvResult" android:layout_marginTop="10dip" android:text="\n" android:textSize="14dip" android:textColor="#333333"></TextView>
+    </RelativeLayout>
+    
+</ScrollView>
+    
+</LinearLayout>
