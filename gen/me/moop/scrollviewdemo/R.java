@@ -18,7 +18,6 @@ public final class R {
     public static final class id {
         public static final int btnCalculate=0x7f050002;
         public static final int etxtNumber=0x7f050003;
-        public static final int linearLayout1=0x7f050005;
         public static final int relativeLayout1=0x7f050000;
         public static final int textView1=0x7f050001;
         public static final int txtvResult=0x7f050004;

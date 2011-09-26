@@ -9,7 +9,5 @@
         </EditText>
         <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/btnCalculate" android:text="Bereken!" android:onClick="calculateTables"></Button>
         <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/btnCalculate" android:layout_alignWithParentIfMissing="false" android:id="@+id/txtvResult" android:layout_marginTop="10dip" android:text="\n" android:textSize="14dip" android:textColor="#FFFFFF"></TextView>
-    </RelativeLayout>
-    <LinearLayout android:id="@+id/linearLayout1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:orientation="vertical"></LinearLayout>
-    
+    </RelativeLayout>    
 </ScrollView>
